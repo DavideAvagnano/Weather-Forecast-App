@@ -1,30 +1,89 @@
-# React + TypeScript + Vite
+# Weather Forecast App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Weather Forecast App** is a responsive web application that provides real-time weather forecasts for multiple cities. Built using modern web technologies like React, Tailwind CSS, and TypeScript, the app leverages the OpenWeather API to fetch and display up-to-date weather information. It includes an intuitive search bar that filters and displays results dynamically as you type.
 
-## Expanding the ESLint configuration
+![Weather Forecast App Screenshot](https://via.placeholder.com/800x400?text=Project+Screenshot)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Features
 
-- Configure the top-level `parserOptions` property like this:
+- **Real-Time Weather Data**: Access current weather information for cities around the globe.
+- **Dynamic Search Bar**: Instant search results while typing, powered by API calls.
+- **Clean UI**: Styled with Tailwind CSS for a sleek and responsive design.
+- **TypeScript Integration**: Strongly typed code for improved reliability and maintainability.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Tech Stack
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- **Frontend**: React, TypeScript
+- **Styling**: Tailwind CSS
+- **API**: OpenWeather API
+
+## Installation and Setup
+
+Follow these steps to run the project locally:
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/DavideAvagnano/Weather-Forecast-App.git
+   ```
+2. **Navigate to the Project Directory:**
+   ```bash
+   cd Weather-Forecast-App
+   ```
+3. **Install Dependencies:**
+   ```bash
+   npm install
+   ```
+4. **Set Up Environment Variables:**
+   Create a `.env` file in the root directory and add your OpenWeather API key:
+   ```env
+   REACT_APP_API_KEY=your_openweather_api_key_here
+   ```
+5. **Run the Application:**
+   ```bash
+   npm start
+   ```
+6. Open [http://localhost:3000](http://localhost:3000) in your browser to view the app.
+
+## Usage
+
+1. Use the search bar to type the name of a city.
+2. The app dynamically fetches and displays matching results as you type.
+3. Click on a city to view detailed weather information.
+
+## Screenshots
+
+![Search Bar Screenshot](https://via.placeholder.com/800x400?text=Search+Bar)
+
+![Weather Info Screenshot](https://via.placeholder.com/800x400?text=Weather+Info)
+
+## Future Enhancements
+
+- Add support for hourly and weekly weather forecasts.
+- Implement user authentication to save favorite locations.
+- Include a light/dark mode toggle.
+
+## Contributing
+
+Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Acknowledgements
+
+- [OpenWeather API](https://openweathermap.org/api) for providing the weather data.
+- [Tailwind CSS](https://tailwindcss.com/) for the responsive design framework.
+
+## Links
+
+- **Live Demo**: Coming soon
+- **GitHub Repository**: [Weather Forecast App](https://github.com/DavideAvagnano/Weather-Forecast-App)
+
+---
+
+Feel free to star the repo if you like this project! ⭐
