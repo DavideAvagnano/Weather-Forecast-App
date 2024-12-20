@@ -1,12 +1,8 @@
 # Weather Forecast App
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-
 ## Overview
 
 **Weather Forecast App** is a responsive web application that provides real-time weather forecasts for multiple cities. Built using modern web technologies like React, Tailwind CSS, and TypeScript, the app leverages the OpenWeather API to fetch and display up-to-date weather information. It includes an intuitive search bar that filters and displays results dynamically as you type.
-
-![Weather Forecast App Screenshot](https://via.placeholder.com/800x400?text=Project+Screenshot)
 
 ## Features
 
@@ -54,12 +50,6 @@ Follow these steps to run the project locally:
 2. The app dynamically fetches and displays matching results as you type.
 3. Click on a city to view detailed weather information.
 
-## Screenshots
-
-![Search Bar Screenshot](https://via.placeholder.com/800x400?text=Search+Bar)
-
-![Weather Info Screenshot](https://via.placeholder.com/800x400?text=Weather+Info)
-
 ## Future Enhancements
 
 - Add support for hourly and weekly weather forecasts.
@@ -81,8 +71,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Links
 
-- **Live Demo**: Coming soon
-- **GitHub Repository**: [Weather Forecast App](https://github.com/DavideAvagnano/Weather-Forecast-App)
+- **Live Demo**: [Weather-Forcast-App on Vercel](https://weather-forecast-app-iota-self.vercel.app/)
 
 ---
 
