@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { optionType, forecastType } from "../types";
 
-const BASE_URL = "http://api.openweathermap.org";
+const BASE_URL = "https://api.openweathermap.org";
 
 export const useForecast = () => {
   const [input, setInput] = useState<string>("");
